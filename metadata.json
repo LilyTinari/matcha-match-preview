@@ -1,0 +1,6 @@
+{
+  "name": "Matcha Match",
+  "description": "Map ceremonial matcha and specialty coffee. Log what you drank. Plan the next stop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
