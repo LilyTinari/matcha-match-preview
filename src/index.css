@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-sans);
+    background: #f6f3ee;
+    color: #14110e;
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+  }
+}
+
+@keyframes ken {
+  0% { transform: scale(1.04); }
+  50% { transform: scale(1.1) translate3d(-1%, 1%, 0); }
+  100% { transform: scale(1.04); }
+}
+
+.hero-media { animation: ken 28s ease-in-out infinite; }
